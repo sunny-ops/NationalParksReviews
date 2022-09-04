@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 const cities = require('./cities');
 const { places, descriptors } = require('./seedHelpers');
 const Campground = require('../models/campground');
-const nps = require('../try/data.json');
+// const nps = require('../try/data.json');
+const nps = require('../try/1.json');
 
 mongoose.connect('mongodb://localhost:27017/yelp-camp', {
     useNewUrlParser: true,
@@ -22,7 +23,7 @@ const sample = array => array[Math.floor(Math.random() * array.length)];
 
 const seedDB = async () => {
     await Campground.deleteMany({});
-    for (let i = 0; i < 3; i++) {
+    for (let i = 1; i < 50; i++) {
         const random1000 = Math.floor(Math.random() * 1000);
         const price = Math.floor(Math.random() * 20) + 10;
         const camp = new Campground({
@@ -44,10 +45,10 @@ const seedDB = async () => {
                     url: nps.data[i].images[0].url,
                     filename: nps.data[i].images[0].title
                 },
-                {
-                    url: nps.data[2].images[1].url,
-                    filename: nps.data[i].images[1].title
-                }
+                // {
+                //     url: nps.data[i].images[1].url,
+                //     filename: nps.data[i].images[1].title
+                // }
             ]
         })
         await camp.save();
