@@ -20,4 +20,5 @@ Run
 
 <img width="1596" alt="parks1" src="https://user-images.githubusercontent.com/61606038/189406417-224023cf-f19e-4886-869f-b869f0309b32.png">
 <img width="1334" alt="parks2" src="https://user-images.githubusercontent.com/61606038/189407759-3494feec-8712-46aa-88e7-a5fbcb261499.png">
-<img width="1412" alt="park3" src="https://user-images.githubusercontent.com/61606038/189408841-31dd2aba-b6ee-4469-831d-314bede3c965.png">
+<img width="1390" alt="parks3" src="https://user-images.githubusercontent.com/61606038/189409533-2417d7c1-9c62-40fa-87d0-1ee278e4e2c4.png">
+<img width="967" alt="parks4" src="https://user-images.githubusercontent.com/61606038/189409759-802ebe47-e3f9-425b-bcbd-dc4cd7044bec.png">
